@@ -13,7 +13,7 @@ import { FAQ } from "./pages/FAQ";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/cognivora">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
